@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_olives \
     android.hardware.biometrics.fingerprint@2.2
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.xiaomi.device.rc
