@@ -15,6 +15,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
+#BootAnimation
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olives
 PRODUCT_NAME := aosp_olives
